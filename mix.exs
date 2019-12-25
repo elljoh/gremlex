@@ -43,15 +43,15 @@ defmodule Gremlex.MixProject do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:poison, "~> 3.1"},
-      {:httpoison, "~> 1.3.1"},
-      {:confex, "~> 3.2.3"},
+      {:poison, "~> 4.0"},
+      {:httpoison, "~> 1.6"},
+      {:confex, "~> 3.4"},
       {:uuid, "~> 1.1"},
       {:poolboy, "~> 1.5.1"},
       {:socket, "~> 0.3"},
-      {:mix_test_watch, "~> 0.3", only: :dev, runtime: false},
+      {:mix_test_watch, "~> 1.0.0", only: :dev, runtime: false},
       {:ex_doc, "~> 0.19", only: :dev, runtime: false},
-      {:mock, "~> 0.2.0", only: :test},
+      {:mock, "~> 0.3.0", only: :test},
       {:excoveralls, "~> 0.7", only: :test},
       {:stream_data, "~> 0.1", only: :test}
     ]
